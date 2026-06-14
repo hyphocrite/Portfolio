@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .reveal {
+    /* Remove opacity: 0 and transform — let GSAP handle it */
+  }
+}
+
 @layer base {
   :root {
     --bg: #fafaf7;

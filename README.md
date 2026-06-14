@@ -37,7 +37,7 @@ Update **`src/data.js`** to change projects, social links, skills, and terminal 
 
 ## GitHub Pages deployment
 
-1. Push this repo to GitHub at [hyphocrite/portfolio](https://github.com/hyphocrite/portfolio).
+1. Repo: [hyphocrite/portfolio](https://github.com/hyphocrite/portfolio)
 2. `base` in **`vite.config.js`** is set to `/portfolio/` for GitHub Pages.
 3. In the repo: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 4. Push to `main` — the workflow in `.github/workflows/deploy.yml` builds and deploys `dist/` automatically.

@@ -176,12 +176,6 @@
   }
 }
 
-@layer utilities {
-  .reveal {
-    opacity: 0;
-    transform: translateY(24px);
-  }
-}
 
 @keyframes float {
   0%,
